@@ -1,0 +1,30 @@
+# To add an artist, add an entry with the following format:
+#
+#   <artist name>:
+#     album: <album name>
+#     artwork: <url>
+#
+# For example:
+#
+#   The Kid LAROI:
+#     album: Unreleased LAROI
+#     artwork: "./static/images/laroi.jpg"
+#
+artist:
+  The Kid LAROI:
+    album: Unreleased LAROI
+    artwork: "./static/images/laroi.jpg"
+  Juice WRLD:
+    album: Juice
+    artwork:
+  Lil Skies:
+    album: Alone
+    artwork:
+  iann dior:
+    album: iann
+    artwork:
+  Lil Uzi Vert:
+    album: Eternal
+    artwork:
+
+apple_script_path: /Users/bailey/repos/apmusic_server/script.applescript

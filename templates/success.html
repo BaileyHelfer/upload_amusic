@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Complete</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/success.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Success!</h1>
+        <p>Your song has been successfully uploaded to Apple Music.</p>
+        <div class="song-details">
+            <h2>Song Details</h2>
+            <p><strong>Song Name:</strong> {{ song_name }}</p>
+            <p><strong>Artist:</strong> {{ artist_name }}</p>
+            <p><strong>Album:</strong> {{ album_name }}</p>
+        </div>
+        <a href="/" class="button">Upload Another Song</a>
+    </div>
+</body>
+</html>
