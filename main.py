@@ -52,7 +52,7 @@ def index():
     # Extract the artist names from the config
     artists = list(config.get('artist', {}).keys())
     
-    return render_template('index.html', artists=artists)
+    return render_template('success.html', artists=artists)
 
 @app.route("/download", methods=["POST"])
 def download():
